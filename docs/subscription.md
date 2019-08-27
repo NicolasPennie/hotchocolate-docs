@@ -159,4 +159,4 @@ configuration.EndPoints.Add("host:port");
 services.AddRedisSubscriptionProvider(configuration);
 ```
 
-Our Redis subscription provider uses the `StackExchange.Redis` Redis client underneath an we have integration tests against the Azure Cache.
+Our Redis subscription provider uses the `StackExchange.Redis` Redis client underneath and we have integration tests against the Azure Cache.
